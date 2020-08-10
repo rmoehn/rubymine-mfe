@@ -3,7 +3,12 @@ development:
   encoding: unicode
   database: gtmfe_development
   prepared_statements: false
-  pool: 5
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: gtmfe_test
+  prepared_statements: false
 
 ## SQLite version 3.x
 ##   gem install sqlite3

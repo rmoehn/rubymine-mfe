@@ -48,5 +48,7 @@ group :development do
   gem 'spring'
 
   gem "foreman", "0.85.0"
+  gem 'guard'
+  gem 'guard-minitest'
 end
 
